@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gal_style.css">
+</head>
+<body>
+    <div class="gallery">
+        <a href="website_delhi.html">
+            <img src="gal_images/backicon.jpg" style="width: 90px; height: 90px; float: left; padding: 20px 20px ;" href ="" >
+            </a>
+    <h1 style="text-align: center; padding-top: 30px; font-size: 50px; font-family: 'Abril Fatface', cursive;"><u>GALLERY</u></h1>
+    
+    </div>
+    <div class="full-img" id="fullimgbox">
+        <img src="gal_images/img1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+    </div>
+    <div class="img-gallery">
+       <img src="gal_images/img1.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img2.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img3.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img4.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img5.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img6.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img7.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img8.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img9.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img10.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img11.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img12.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img13.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img14.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/img15.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/imj16.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/Kingdom1.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/lodhi.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/Birla_Mandir.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/rail.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/selectcity.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/v3s.png" onclick="openfullimg(this.src)">
+       <img src="gal_images/zoo.jpg" onclick="openfullimg(this.src)">
+       <img src="gal_images/adventure.jfif" onclick="openfullimg(this.src)">
+       
+       
+    </div>
+    <script>
+        var fullimgbox = document.getElementById("fullimgbox");
+        var fullimg = document.getElementById("fullimg");
+
+        function openfullimg(pic)
+        {
+           fullimgbox.style.display = "flex";
+           fullimg.src = pic
+        
+        }
+        function closefullimg(){
+            fullimgbox.style.display = "none";
+        }
+    </script>
+    
+</body>
+</html>

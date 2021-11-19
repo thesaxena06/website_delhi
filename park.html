@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>park</title>
+    <style>
+        *{
+            padding: 0;;
+            margin: 0;
+        }
+        body{
+            overflow-x: hidden;
+            font-family: 'PT Sans', sans-serif;
+        }
+        .heading{
+            margin-bottom: 25px;
+        }
+        .heading h1{
+            margin-left: 650px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 50px;
+            color: red;
+        }
+        .section-container{
+            margin-top: 10px;
+            margin-left: 8px;
+            --bs-gutter-x:1.5rem;
+            --bs-gutter-y:0;
+            display:flex ;
+            flex-wrap: wrap;
+            margin-top: calc(var(--bs--gutter-y)*-1);
+            margin-right: calc(var(--bs--gutter-x)/-2);
+            /* margin-left: calc(var(--bs-gutter-x)/-2);         */
+        }
+        .section-container .columns{
+            flex: 0 0 auto;
+            width: 50%;
+        }
+        .section-container .columns .image{
+            margin-top : 10px; ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .section-container .columns.content .content-container{
+            padding: 40px 50px;
+            
+
+        }
+        .section-container .columns.content .content-container h5{
+            font-weight: 700;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .section-container .columns.content .content-container p{
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .button1{
+	background-color: #00ffff; 
+    color: black;
+	 font-size: large;
+     border: 2px solid #2e2eb8;
+     width: 100px;
+	 border-radius: 10px;
+	 height: 30px;
+	 margin-left: 225px;
+     margin-bottom: 10px ;
+
+}
+.button1:hover {
+     background-color : royalblue;
+     color: white;
+} 
+.under{
+    width: 92%; 
+    margin-left: 100px;
+}
+        @media screen and (max-width:767px)
+        {
+            .section-container{
+                flex-flow: row wrap;
+
+            }
+            .heading h1{
+            margin-left: 270px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 50px;
+            color: red;
+        }
+        .under{
+            margin-left: 160px;
+        }
+            .section-container .columns.image{
+                display: block;
+                order: 1;
+                width: 767px;
+                
+                
+            }
+            .section-container .columns.content{
+                display: block;
+                order: 2;
+                width: 767px;
+
+            }
+            .section-container .columns.content .content-container{
+                padding: 20px 35px;
+
+            }
+            .section-container .columns.content .content-container h5{
+                margin-bottom: 5px ;
+            }
+            .button1{
+                margin-left: 285px;
+            }
+
+        }
+    </style>
+
+</head>
+<body>
+    <a href="website_delhi.html">
+        <img src="gal_images/backicon.jpg" style="width: 90px; height: 90px; float: left; padding: 5px 20px ;" href ="" >
+        </a>
+    <div class="heading">
+        <h1>Parks</h1>
+        <hr class="under">
+    </div>
+    <div class="section-container">
+       <div class="columns image" style="background-image: url(gal_images/hauskhas.jpg);height: 500px; size: 50%; " >
+       &nbsp;
+    </div>
+    <div class="columns content">
+        <div class="content-container">
+            <h5>Hauz Khas</h5>
+            <p>Known as ‘The National Capital of Ethnic Chic’, the hip and trendy Hauz Khas Village is a beautiful urban village nestled in a corner among the ruins of domed tombs of Muslim royalty from the 14th to 16th centuries, that merge into the modern day Deer Park. Old homes here have been converted into fashion boutiques &amp; chic homestays, art galleries, jewellery shops, book and antique stores, multi-cuisine restaurants, bars and nightclubs. HKV might be full of arterial narrow lanes but it is the epicenter of Delhi’s most vibrant social life. 
+            </p>
+            <p>In the spring and winter evenings, visitors can stroll along the lake, watch the beautiful sunset from the ruins of the fort or sip a cocktail at one of the many rooftop bars and restaurants overlooking it.
+             </p>
+             <a href="hauz-khas.html" target="_blank"><button class="button1">MAP</button></a>
+        </div>
+        
+    </div>
+    
+
+    </div>
+
+    <div class="section-container">
+     <div class="columns content">
+         <div class="content-container">
+             <h5>Garden of Five Senses  </h5>
+             <p>Located in the poised Said-ul-Ajaib, away from the din of the city, the Garden of Five Senses that sprawls over 20 acres of land is designed to stimulate your senses of touch, sight, smell, sound and taste and is a paradise for nature’s lovers. Partly built on rocky terrain and partly in the plain area, the garden has various themed parks, a section of Mughal baghs, pools of water lilies, cascades of sparkling water, a solar energy park, an amphitheatre, a humongous yet charming food court, in addition to umpteen sculptures, rock carvings and themed decor.
+                
+             </p>
+             <p>TDesigned by the famous Delhi architect Pradeep Sachdeva, the park was jointly constructed by Delhi Tourism and Transportation Development Corporation at the cost of whopping 10.5 crores and was inaugurated in February 2003. Flower show during February is a notable event.
+              </p>
+              <a href="gofs.html" target="_blank"><button class="button1">MAP</button></a>
+         </div>
+     </div>
+     <div class="columns image" style="background-image: url(gal_images/gofs.jpg); height: 450px;">
+        &nbsp;
+     </div>
+ 
+     </div>
+
+     <div class="section-container">
+        <div class="columns image" style="background-image: url(gal_images/nehruPark.jpg); height: 450px; " >
+        &nbsp;
+     </div>
+     <div class="columns content">
+         <div class="content-container">
+             <h5>Nehru Park</h5>
+             <p>Located in the Chanakyapuri Diplomatic Enclave in New Delhi, Nehru Park sprawls over an area of 85 acres. Named after our first Prime Minister Pandit Nehru, the park was established in 1969.
+             </p>
+             <p>An affluent neighbourhood and diplomatic enclave, Chanakyapuri is lined up with numerous parks and open spaces while is the must sought after address in town with official residences of the top Indian politicians and civil servants. Drive along this gorgeous part of the capital that is a part of the Lutyens’ Delhi, as it gives you glimpses of the lives of not just the rich and famous , but even the biggest government and political institutions at work all across the lanes surrounding the Rashtrapati Bhavan, Sansad Bhawan and India Gate. Head to the State Bhavans for authentic regional food at great prices - the meals here are true representatives of their respective state’s local food and hospitality.
+              </p>
+              <a href="nehru-park.html" target="_blank"><button class="button1">MAP</button></a>
+         </div>
+     </div>
+ 
+     </div>
+ 
+     <div class="section-container">
+      <div class="columns content">
+          <div class="content-container">
+              <h5>Lodhi Garden</h5>
+              <p>Located near the Safdarjung tomb and Khan Market of Delhi, the Lodhi Garden is a luscious garden that houses the tombs of Sayyid ruler Mohammed Shah and Lodhi king Sikandar Lodhi. The construction of this great work of architecture took place under the Lodhi reign sometime in the 15th century. In addition to encompassing the final resting place of two great leaders, the Lodhi Garden also has the Shisha Gumbad and Bara Gumbad within its perimeter. The architecture here shows a mix of work by Sayyidis and Lodhis and is the epitome of magnificent engineering that echoes of Delhi's illustrious history. Currently, this place is maintained by the Archaeological Survey of India.
+              </p>
+              <p>Lodhi Garden was once known as 'Lady Willingdon Park', but was renamed after India gained independence from the British. The contrast of sombre mausoleums against the lush greenery of the gardens makes it a favourite among tourists and locals alike. Along with being an architectural site, it has also become a hub of morning and evening exercise routine for people living nearby.
+               </p>
+               <a href="lodhi-garden.html" target="_blank"><button class="button1">MAP</button></a>
+          </div>
+      </div>
+      <div class="columns image" style="background-image: url(gal_images/lodhi.jpg); height: 450px;">
+         &nbsp;
+      </div>
+  
+      </div>
+
+     
+</body>
+</html>

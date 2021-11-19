@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+</head>
+<style>
+    .first {
+    width: 100%;
+    height: 1000px;
+    background: #ccc;
+}
+
+.second {
+    width: 100%;
+    height: 1000px;
+    background: #999;
+}
+</style>
+<body>
+    <div class="first"><button type="button" onclick="myFunction()">Click Me!</button></div>
+<div class="second">Hi</div>
+</body>
+<script>
+//    $("button").click(function() {
+//     $('html,body').animate({
+//         scrollTop: $(".second").offset().top},
+//         'slow');
+// });
+
+function myFunction() {
+	  var elmnt = document.getElementsByClassName("second");
+	  elmnt.scrollIntoView();
+	}
+</script>
+</html>
